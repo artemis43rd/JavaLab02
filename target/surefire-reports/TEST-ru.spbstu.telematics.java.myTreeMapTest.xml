@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.spbstu.telematics.java.AppTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.spbstu.telematics.java.myTreeMapTest" time="0.047" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\Моё\Учёба\Java\lab02\target\test-classes;D:\Моё\Учёба\Java\lab02\target\classes;C:\Users\shiel\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\shiel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\Моё\Учёба\Java\lab02\target\test-classes;D:\Моё\Учёба\Java\lab02\target\classes;C:\Users\shiel\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\shiel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shiel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\shiel\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\shiel\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\shiel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\shiel\AppData\Local\Temp\surefire440892235470940928\surefirebooter15790970232904090028.jar C:\Users\shiel\AppData\Local\Temp\surefire440892235470940928 2023-11-18T00-43-04_969-jvmRun1 surefire3525632075998637047tmp surefire_01311229404851332202tmp"/>
+    <property name="sun.java.command" value="C:\Users\shiel\AppData\Local\Temp\surefire1244387826752760993\surefirebooter3532540416721197196.jar C:\Users\shiel\AppData\Local\Temp\surefire1244387826752760993 2023-11-18T23-09-10_397-jvmRun1 surefire7227116931259707976tmp surefire_014508822651571390163tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Моё\Учёба\Java\lab02\target\test-classes;D:\Моё\Учёба\Java\lab02\target\classes;C:\Users\shiel\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\shiel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Моё\Учёба\Java\lab02\target\test-classes;D:\Моё\Учёба\Java\lab02\target\classes;C:\Users\shiel\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\shiel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\shiel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\shiel\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\shiel\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\shiel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\shiel"/>
     <property name="user.language" value="ru"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shiel\AppData\Local\Temp\surefire440892235470940928\surefirebooter15790970232904090028.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shiel\AppData\Local\Temp\surefire1244387826752760993\surefirebooter3532540416721197196.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testTreeMap" classname="ru.spbstu.telematics.java.AppTest" time="0.002"/>
+  <testcase name="testMyTreeMap" classname="ru.spbstu.telematics.java.myTreeMapTest" time="0.009"/>
 </testsuite>
